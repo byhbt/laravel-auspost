@@ -28,7 +28,7 @@
     "phpcs": [
       "vendor/bin/php-cs-fixer fix --config=.php_cs --verbose --diff --dry-run"
     ]
-  }
+  },
   "minimum-stability": "dev",
   "extra": {
     "laravel": {
