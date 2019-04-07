@@ -39,7 +39,10 @@
     "laravel": {
       "providers": [
         "Byhbt\\Auspost\\AuspostServiceProvider"
-      ]
+      ],
+      "aliases": {
+        "Auspost": "Byhbt\\Auspost\\Facades\\Auspost"
+      }
     }
   }
 }
