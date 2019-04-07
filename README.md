@@ -12,7 +12,9 @@ Install the ```byhbt/auspost-laravel``` package:
 composer require byhbt/auspost-laravel:1.0.0
 ```
 
-### Step 2:
+### Step 2: (optional)
+
+As far as i remember from Laravel version >= 5.5 we don't have to do this because of the [auto-discovery](https://divinglaravel.com/laravels-package-auto-discovery) mechanism.  
 
 Update ```config/app.php```
 
@@ -28,6 +30,7 @@ Update ```config/app.php```
     'Auspost' => Byhbt\Auspost\Facades\Auspost::class,
 )
 ```
+
 
 ### Step 3:
 Get the Auspost API key at https://developers.auspost.com.au/register  
