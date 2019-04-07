@@ -29,6 +29,11 @@
       "vendor/bin/php-cs-fixer fix --config=.php_cs --verbose --diff --dry-run"
     ]
   },
+  "autoload": {
+    "psr-4": {
+      "Byhbt\\Auspost\\": "src/"
+    }
+  }
   "minimum-stability": "dev",
   "extra": {
     "laravel": {
