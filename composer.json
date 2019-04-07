@@ -33,7 +33,7 @@
     "psr-4": {
       "Byhbt\\Auspost\\": "src/"
     }
-  }
+  },
   "minimum-stability": "dev",
   "extra": {
     "laravel": {
