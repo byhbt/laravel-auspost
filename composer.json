@@ -10,7 +10,7 @@
   ],
   "require": {
     "php": "^7.1",
-    "illuminate/support": "5.0 - 5.8",
+    "illuminate/support": ">=5.0",
     "fontis/auspost-api-php": "^2.0.0",
     "guzzlehttp/psr7": "^1.5@dev",
     "php-http/discovery": "^1.5@dev",
